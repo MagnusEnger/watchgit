@@ -1,0 +1,15 @@
+watchgit - fetch from remotes and output RSS of new commits
+
+Create a directory called repo, create a git repository in it and
+add lots of remotes to it: 
+
+ mkdir repo
+ cd repo
+ git init
+ git remote add origin git://git...
+ 
+Running ./watchgit.sh fetches from all the remotes and outputs any
+new commits as RSS. 
+
+TODO
+- Output RSS
